@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/cmh/Desktop/SLAM_WS/fast_lio2_ws/devel/include/**",
+        "/home/cmh/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/cmh/Desktop/SLAM_WS/fast_lio2_ws/src/Fast-lio2-Supernote-main/include/**",
+        "/home/cmh/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/**",
+        "/home/cmh/catkin_ws/src/gazebo_ros_pkgs/gazebo_ros/include/**",
+        "/home/cmh/catkin_ws/src/gazebo_ros_pkgs/gazebo_ros_control/include/**",
+        "/home/cmh/Desktop/SLAM_WS/fast_lio2_ws/src/Livox_simulation_customMsg/include/**",
+        "/home/cmh/catkin_ws/src/velodyne_gazebo_plugins/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

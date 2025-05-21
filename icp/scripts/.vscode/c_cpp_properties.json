@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/cmh/slam/Relocation/fast_lio_pcl_icp/devel/include/**",
+        "/home/cmh/Prometheus/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/cmh/prometheus_mavros/devel/include/**",
+        "/home/cmh/slam/Relocation/fast_lio_pcl_icp/src/fast-lio2/include/**",
+        "/home/cmh/slam/Relocation/fast_lio_pcl_icp/src/icp/include/**",
+        "/home/cmh/slam/Relocation/fast_lio_pcl_icp/src/icp_test/include/**",
+        "/home/cmh/prometheus_mavros/src/mavros/libmavconn/include/**",
+        "/home/cmh/Prometheus/Simulator/livox_laser_gazebo_plugins/include/**",
+        "/home/cmh/prometheus_mavros/src/mavros/mavros/include/**",
+        "/home/cmh/prometheus_mavros/src/mavros/mavros_msgs/include/**",
+        "/home/cmh/Prometheus/Simulator/gazebo_simulator/include/**",
+        "/home/cmh/Prometheus/Modules/uav_control/include/**",
+        "/home/cmh/Prometheus/Simulator/realsense_gazebo_plugin/include/**",
+        "/home/cmh/prometheus_mavros/src/mavros/test_mavros/include/**",
+        "/home/cmh/Prometheus/Simulator/velodyne_gazebo_plugins/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

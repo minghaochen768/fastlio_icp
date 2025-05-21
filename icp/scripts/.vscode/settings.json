@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/cmh/slam/Relocation/fast_lio_pcl_icp/devel/lib/python3/dist-packages",
+        "/home/cmh/Prometheus/devel/lib/python3/dist-packages",
+        "/home/cmh/prometheus_mavros/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/cmh/slam/Relocation/fast_lio_pcl_icp/devel/lib/python3/dist-packages",
+        "/home/cmh/Prometheus/devel/lib/python3/dist-packages",
+        "/home/cmh/prometheus_mavros/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

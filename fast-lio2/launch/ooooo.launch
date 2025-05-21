@@ -1,0 +1,14 @@
+<launch>
+  <!-- 用 pcl_ros 发布 PCD 点云 -->
+  <node pkg="pcl_ros" type="pcd_to_pointcloud" name="pcd_pub" args="/home/cmh/scans1.pcd 1.0">
+    <param name="frame_id" value="map"/>
+  </node>
+
+  <!-- 启动标准 Octomap Server 节点（带保存服务） -->
+  <node pkg="octomap_server" type="octomap_server_node" name="octomap_server">
+    <param name="resolution" value="0.05"/>
+    <param name="frame_id" value="map"/>
+    <remap from="/cloud_in" to="/cloud_pcd"/>
+  </node>
+</launch>
+

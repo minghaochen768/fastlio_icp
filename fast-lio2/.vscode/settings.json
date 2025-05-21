@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/cmh/Desktop/SLAM_WS/fast_lio2_ws/devel/lib/python3/dist-packages",
+        "/home/cmh/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/cmh/Desktop/SLAM_WS/fast_lio2_ws/devel/lib/python3/dist-packages",
+        "/home/cmh/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}
